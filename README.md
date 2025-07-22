@@ -122,7 +122,8 @@ Checkout the git repo and rename folder
 ```
 cd /usr/share/hassio/homeassistant/custom_components
 git clone https://github.com/klali/ha-plejd.git
-mv ha-plejd plejd
+mv ha-plejd/custom_components/plejd .
+rm -rf ha-plejd
 ```
 Update your configuration.yaml file
 ```
